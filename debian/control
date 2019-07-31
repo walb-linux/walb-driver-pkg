@@ -1,0 +1,24 @@
+Source: walb-driver
+Section: kernel
+Priority: optional
+Maintainer: Takashi HOSHINO <starpos@gmail.com>
+Build-Depends: debhelper (>= 9)
+Build-Depends-Indep: dkms
+Standards-Version: 3.9.5
+Homepage: http://walb-linux.github.io/
+#Vcs-Git: git://git.debian.org/collab-maint/walb-dkms.git
+#Vcs-Browser: http://git.debian.org/?p=collab-maint/walb-dkms.git;a=summary
+
+Package: walb-driver-dkms
+Architecture: all
+Depends: ${misc:Depends}
+Conflicts: walb-modules
+Description: WalB kernel driver source for dkms.
+ This contains WalB kernel driver source for dkms.
+
+Package: walb-driver-source
+Architecture: all
+Depends: ${misc:Depends}, module-assistant, debhelper (>= 9), bzip2
+Description: WalB kernel driver source code for module assistant.
+ This contains WalB kernel driver module source code for
+ module assistant.

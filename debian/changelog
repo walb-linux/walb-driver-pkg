@@ -1,0 +1,5 @@
+walb-driver (1.3.4~beta1-0xenial1) xenial; urgency=medium
+
+  * Initial debian package release.
+
+ -- Takashi HOSHINO <hoshino@labs.cybozu.co.jp>  Wed, 31 Jul 2019 18:14:23 +0900
